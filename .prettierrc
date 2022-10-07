@@ -1,0 +1,33 @@
+{
+  "semi": false,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "**/*.php",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+
+    {
+      "files": ["resources/**/*.css", "resources/**/*.scss"],
+      "options": {
+        "tabWidth": 2
+      }
+    },
+
+    {
+      "files": [
+        "resources/**/*.js",
+        "resources/**/*.ts",
+        "resources/js/vue/**"
+      ],
+      "options": {
+        "tabWidth": 2,
+        "printWidth": 120,
+        "vueIndentScriptAndStyle": true
+      }
+    }
+  ]
+}
